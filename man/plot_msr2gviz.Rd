@@ -14,12 +14,12 @@ plot_msr2gviz(gr, txdb, n_plus = 1000)
 \item{n_plus}{Integer to expand IRanges for plotting (comparable to + operator)}
 }
 \value{
-A viz plotTracks plot
+A Gviz plotTracks plot
 }
 \description{
 Generates a Gviz plot associated with an rMATS event type for a single gene.
 }
 \examples{
-
+plot_msr2gviz(gr, txdb)
 
 }
