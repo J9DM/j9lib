@@ -19,7 +19,3 @@ A Gviz plotTracks plot
 \description{
 Generates a Gviz plot associated with an rMATS event type for a single gene.
 }
-\examples{
-plot_msr2gviz(gr, txdb)
-
-}
