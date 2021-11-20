@@ -14,3 +14,6 @@ Imports:
     Gviz,
     IRanges,
     magrittr
+Depends: 
+    R (>= 2.10)
+LazyData: true

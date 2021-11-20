@@ -11,8 +11,7 @@
 #' @return A Gviz plotTracks plot
 #' @export
 #'
-#' @examples
-#'
+#' @examples plot_msr2gviz(gr, txdb)
 #'
 plot_msr2gviz <- function(gr, txdb, n_plus = 1000) {
   gene_symbol <- gr$geneSymbol %>% unique()
